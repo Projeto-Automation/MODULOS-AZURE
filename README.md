@@ -11,10 +11,9 @@ Repositório de módulos da AZURE
  |_________________|________|_______|_________|
 
 # MODULO CREATE VM LINUX UBUNTU 22.04
-
+```
 module "vm_linux" {
   source = "github.com/Projeto-Automation/MODULOS-AZURE/tree/main/vm_linux"
-  # Defina as variáveis necessárias aqui
   location = ""
   resource_group_name = ""
   subnet_id = ""
@@ -25,4 +24,4 @@ module "vm_linux" {
   admin_password = ""
   key_data = "/chaves/public"
 }
-
+```
