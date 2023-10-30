@@ -1,14 +1,14 @@
 # MODULOS-AZURE
 Repositório de módulos da AZURE
 
-#       Tabela shape
-# ______________________________________________
-# |  Cod. maquina   |  vcpu  |  GiB  |  R$/mês |
-# | --------------- |------- | ----- | ------- |
-# | Standard_B1|s   | 1      | 0,5   |  33,64  |
-# | Standard_B1s    | 1      | 1     |  67,29  |
-# | Standard_B2s    | 2      | 4     | 269,15  |
-# |_________________|________|_______|_________|
+       Tabela shape
+ ______________________________________________
+ |  Cod. maquina   |  vcpu  |  GiB  |  R$/mês |
+ | --------------- |------- | ----- | ------- |
+ | Standard_B1|s   | 1      | 0,5   |  33,64  |
+ | Standard_B1s    | 1      | 1     |  67,29  |
+ | Standard_B2s    | 2      | 4     | 269,15  |
+ |_________________|________|_______|_________|
 
 # MODULO CREATE VM LINUX UBUNTU 22.04
 
