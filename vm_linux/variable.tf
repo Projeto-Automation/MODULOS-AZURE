@@ -27,7 +27,7 @@ variable "caching" {
 
 variable "create_option" {
     type = string
-    default = "Attach"  
+    default = "FromImage"  
 }
 
 variable "disk_size_gb" {
