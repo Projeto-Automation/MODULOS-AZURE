@@ -47,9 +47,9 @@ variable "admin_password" {
     type = string  
 }
 
-# variable "key_data" {
-#     type = string
-# }
+ variable "key_data" {
+     type = string
+ }
 
 variable "subnet_id" {
     type = string
