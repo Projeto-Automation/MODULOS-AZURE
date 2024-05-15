@@ -1,3 +1,16 @@
+terraform {
+    required_providers {
+        guacamole = {
+            source  = "techBeck03/guacamole"
+            version = "1.4.1"
+        }
+        vault = {
+            source = "hashicorp/vault"
+            version = "4.2.0"
+        }
+    }
+}
+
 data "vault_generic_secret" "variaveis_ambiente_teste" {
     path = "guacamole/variaveis_ambiente"
 }
