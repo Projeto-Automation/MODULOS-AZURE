@@ -1,4 +1,4 @@
-´´´
+```
 modulo "ssh" {
     source = "github.com/Projeto-Automation/MODULOS-AZURE//ssh"
     path_vault = ""
@@ -7,4 +7,4 @@ modulo "ssh" {
     guacd_hostname = ""
     guacd_port = ""
 }
-´´´
+```
